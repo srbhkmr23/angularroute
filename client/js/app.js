@@ -24,3 +24,9 @@ myapp.config(function($stateProvider, $urlRouterProvider) {
         });
         
 });
+
+myapp.controller('indexcontroller', function($scope,$rootScope) {
+  $scope.isRouteLoading = false;
+
+
+});
