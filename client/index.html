@@ -32,7 +32,7 @@
 		  </div>
 		</nav>
 		<route-loading-indicator></route-loading-indicator>
-		<div ui-view></div>
+		<div  ng-if="!isRouteLoading" ui-view></div>
 
 
 	</body>
